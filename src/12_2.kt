@@ -38,6 +38,7 @@ fun main(args: Array<String>) {
     println(arithmeticOp(1, 2, ::sub))
 
     val myFavoriteSong : String? = null
+    //val myFavoriteSong : String? = "jinglebells"
 
     try {
         println(myFavoriteSong!!.length)
@@ -47,5 +48,9 @@ fun main(args: Array<String>) {
     }
 
     println("Str length: ${myFavoriteSong?.length ?: "Null song value"}")
+
+    println(myFavoriteSong ?: "I don't have a favorite song.")
+
+
 
 }
