@@ -71,6 +71,10 @@ fun main() {
     println(if(anon_threshold.isLit(31)) "nice" else ":(")
     println(if(anon_threshold.isLit(41)) "nice" else ":(")
 
+    var s = ""
+    s+= "hello"
+    println(s)
+
 
 
 }
